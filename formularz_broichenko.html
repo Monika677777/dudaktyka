@@ -1,14 +1,140 @@
-<!DOCTYPE html> 
-<html lang="pl-PL"> 
-<html> 
-     <head> 
-             <meta charset="utf-8"> 
-             <title>  formularz_broichenko     </title> 
-     </head> 
-    <body> 
- Jestem na stronie formularza <br>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FORMULARZ REJESTRACJI NA TURNIEJ ESPORTOWY</title>
+</head>
+<body bgcolor="#f4f4f9">
 
-<A HREF="index.html"> wróć </A> 
-    </body> 
-  </html>
+<center><h1>FORMULARZ REJESTRACJI NA TURNIEJ ESPORTOWY</h1></center>
+
+<form action="#" method="post">
+
+<table width="100%">
+    <tr>
+        <td width="25%">
+            <fieldset>
+                <legend><b>Imię</b></legend>
+                <input type="text" name="imie" size="15">
+            </fieldset>
+        </td>
+        <td width="25%">
+            <fieldset>
+                <legend><b>Nickname</b></legend>
+                <input type="text" name="nickname" size="15">
+            </fieldset>
+        </td>
+        <td width="25%">
+            <fieldset>
+                <legend><b>Nazwisko</b></legend>
+                <input type="text" name="nazwisko" size="15">
+            </fieldset>
+        </td>
+        <td width="25%">
+            <fieldset>
+                <legend><b>Klasa</b></legend>
+                <input type="text" name="klasa" size="10">
+            </fieldset>
+        </td>
+    </tr>
+</table>
+
+<br>
+
+<table width="100%">
+    <tr>
+        <td width="33%" valign="top">
+            <fieldset>
+                <legend><b>Płeć:</b></legend>
+                <input type="radio" name="plec" value="kobieta"> Kobieta<br>
+                <input type="radio" name="plec" value="mezczyzna"> Mężczyzna
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>W jakie gry najczęściej grasz?</b></legend>
+                <input type="checkbox" name="gry" value="dota"> Dota 2<br>
+                <input type="checkbox" name="gry" value="cs"> Counter-Strike<br>
+                <input type="checkbox" name="gry" value="valorant"> Valorant<br>
+                <input type="checkbox" name="gry" value="tf2"> Team Fortress 2
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>Preferowana rola w drużynie:</b></legend>
+                <input type="checkbox" name="rola" value="snajper"> Snajper (AWPer)<br>
+                <input type="checkbox" name="rola" value="kapitan"> Kapitan (IGL)<br>
+                <input type="checkbox" name="rola" value="wsparcie"> Wsparcie (Support)<br>
+                <input type="checkbox" name="rola" value="szturmowiec"> Szturmowiec (Entry Fragger)
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>W jakich godzinach możesz grać treningi?</b></legend>
+                <input type="checkbox" name="godziny" value="rano"> Rano (8:00–12:00)<br>
+                <input type="checkbox" name="godziny" value="popoludnie"> Popołudnie (12:00–17:00)<br>
+                <input type="checkbox" name="godziny" value="wieczor"> Wieczór (17:00–23:00)<br>
+                <input type="checkbox" name="godziny" value="noc"> Noc (23:00+)
+            </fieldset>
+        </td>
+
+        <td width="33%" valign="top">
+            <fieldset>
+                <legend><b>Masz doświadczenie drużynowe?</b></legend>
+                <input type="radio" name="doswiadczenie" value="tak"> Tak<br>
+                <input type="radio" name="doswiadczenie" value="nie"> Nie
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>Jak oceniasz swój komputer?</b></legend>
+                <select name="komputer">
+                    <option value="bardzo_dobry">Bardzo dobry</option>
+                    <option value="dobry">Dobry</option>
+                    <option value="przecietny">Przeciętny</option>
+                    <option value="slaby">Słaby</option>
+                </select>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>Link do profilu Steam</b></legend>
+                <input type="text" name="steam" size="25" placeholder="Wpisz link">
+            </fieldset>
+        </td>
+
+        <td width="33%" valign="top">
+            <fieldset>
+                <legend><b>Wiek</b></legend>
+                <input type="checkbox" name="wiek" value="14-15"> 14-15<br>
+                <input type="checkbox" name="wiek" value="15-17"> 15-17<br>
+                <input type="checkbox" name="wiek" value="18+"> 18+
+            </fieldset>
+        </td>
+    </tr>
+</table>
+
+<br>
+
+<fieldset>
+    <legend><b>Dlaczego uważasz, że właśnie Ciebie powinniśmy przyjąć?</b></legend>
+    <textarea name="dlaczego" rows="6" cols="60"></textarea>
+</fieldset>
+
+<br><br>
+<center>
+    <input type="reset" value="RESET">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="SUBMIT">
+</center>
+
+</form>
+
+</body>
+</html>
   
